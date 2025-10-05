@@ -1,0 +1,38 @@
+{
+  "0": {
+    "name": "Apple___Apple_scab",
+    "advice": "Apple scab is a fungal disease. Recommended treatment includes applying fungicides like myclobutanil or captan. Prune infected branches and ensure good air circulation."
+  },
+  "1": {
+    "name": "Apple___Black_rot",
+    "advice": "Black rot is a fungal disease. Remove and destroy infected fruit and cankers. Apply appropriate fungicides during the growing season."
+  },
+  "2": {
+    "name": "Apple___Cedar_apple_rust",
+    "advice": "This is a fungal disease requiring two hosts. Remove nearby cedar trees if possible. Apply fungicides from the pink-bud stage through second cover."
+  },
+  "3": {
+    "name": "Apple___healthy",
+    "advice": "The leaf appears healthy. Continue standard care practices, including proper watering, fertilization, and monitoring for pests."
+  },
+  "4": {
+    "name": "Corn_(maize)___Cercospora_leaf_spot_Gray_leaf_spot",
+    "advice": "This fungal disease thrives in humid conditions. Use resistant hybrids, practice crop rotation, and apply fungicides when lesions first appear."
+  },
+  "5": {
+    "name": "Corn_(maize)___healthy",
+    "advice": "The plant appears healthy. Ensure adequate nitrogen levels and monitor for common pests like corn borers."
+  },
+  "6": {
+    "name": "Tomato___Bacterial_spot",
+    "advice": "Bacterial spot is difficult to control. Use disease-free seeds, rotate crops, and apply copper-based bactericides as a preventive measure."
+  },
+  "7": {
+    "name": "Tomato___Late_blight",
+    "advice": "Late blight is a very destructive fungal disease. Ensure good air circulation, avoid overhead watering, and apply fungicides like chlorothalonil or mancozeb proactively."
+  },
+  "8": {
+    "name": "Tomato___healthy",
+    "advice": "The plant looks healthy. Maintain consistent watering and support the plant with stakes or cages to keep fruit off the ground."
+  }
+}
