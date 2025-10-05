@@ -6,12 +6,13 @@
 
 </div>
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.com) [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agrifutura-ai-diagnosis-4fbtwdayberrn8hcywonlt.streamlit.app/)
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-### **[Live Demo](https://your-streamlit-app-url.com) • [Report a Bug](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis/issues) • [Request a Feature](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis/issues)**
+### **[Live Demo](https://agrifutura-ai-diagnosis-4fbtwdayberrn8hcywonlt.streamlit.app/) • [Report a Bug](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis/issues) • [Request a Feature](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis/issues)**
 
 AgriFutura AI Diagnosis is a deep learning-powered web application designed to help farmers and agricultural professionals quickly and accurately identify plant diseases from leaf images. By leveraging a state-of-the-art ensemble model, this tool provides an instant diagnosis and actionable advice to mitigate crop damage and improve agricultural outcomes.
 
@@ -91,7 +92,7 @@ Follow these instructions to get the project running on your local machine for d
 
 ## 🚀 Usage
 
-1.  Launch the application locally.
+1.  Launch the application locally or visit the **[Live Demo](https://agrifutura-ai-diagnosis-4fbtwdayberrn8hcywonlt.streamlit.app/)**.
 2.  Click on **"Browse files"** to open the file uploader.
 3.  Select a clear JPG, JPEG, or PNG image of a single plant leaf.
 4.  The application will automatically analyze the image and display the diagnosis, confidence level, and treatment advice.
@@ -121,4 +122,3 @@ Feel free to reach out with questions, feedback, or collaboration proposals!
 **Aditya Goyal**
 - **GitHub:** [@Aditya7615](https://github.com/Aditya7615)
 - **LinkedIn:** [linkedin.com/in/adityagoyal7615](https://www.linkedin.com/in/adityagoyal7615/)
-Aditya Goyal - GitHub - LinkedIn ---
