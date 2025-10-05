@@ -1,100 +1,124 @@
-AgriFutura AI Diagnosis 🌿
-An AI-powered web application for the accurate and real-time detection of plant diseases. This project leverages a deep learning model to classify plant leaf images, helping farmers identify issues early and improve crop health.
+<div align="center">
 
-Note: You should replace the image link above with a real screenshot of your running application!
+# 🌿 AgriFutura AI Diagnosis 🌿
 
-📋 Table of Contents
-Project Overview
-Key Features
-Technology Stack
-Model Architecture
-Setup and Installation
-How to Use
-Dataset
-Future Improvements
-License
-Contact
-📖 Project Overview
-Plant diseases pose a significant threat to global food security, causing substantial losses in crop yield. Traditional methods of disease detection are often manual, time-consuming, and require expert knowledge.
+**An intelligent, real-time solution for automated plant disease detection and diagnosis.**
 
-AgriFutura AI Diagnosis provides a modern solution by using a powerful Convolutional Neural Network (CNN) to automatically identify diseases from images of plant leaves. The user-friendly web interface, built with Streamlit, allows anyone to upload an image and receive an instant diagnosis along with actionable advice.
+</div>
 
-✨ Key Features
-Accurate Disease Identification: Utilizes a robust deep learning model trained on thousands of images for high-precision classification.
-User-Friendly Web Interface: A simple and intuitive UI built with Streamlit for easy image uploads and clear results.
-Real-Time Diagnosis: Get instant predictions and confidence scores within seconds.
-Actionable Advice: Provides helpful tips and treatment suggestions for the identified diseases.
-Scalable Solution: The use of the ONNX format for the model ensures efficient and cross-platform deployment capabilities.
-🛠️ Technology Stack
-Backend: Python
-Deep Learning: TensorFlow, Keras
-Model Deployment: ONNX Runtime
-Web Framework: Streamlit
-Data Handling: NumPy, Pillow (PIL)
-🧠 Model Architecture
-The core of this application is a Convolutional Neural Network (CNN) trained for image classification. The model was developed using TensorFlow/Keras and then converted to the ONNX (Open Neural Network Exchange) format. This conversion allows for high-performance inference on various platforms, making the application fast and portable.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.com) [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-⚙️ Setup and Installation
-Follow these steps to set up and run the project on your local machine.
+---
 
-Prerequisites
-Git
-Python 3.10 or newer
-Git LFS (for handling the large model file)
-Step-by-Step Guide
-1. Clone the Repository:
+### **[Live Demo](https://your-streamlit-app-url.com) • [Report a Bug](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis/issues) • [Request a Feature](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis/issues)**
 
-Bash
-git clone https://github.com/Aditya7615/AgriFutura-AI-Diagnosis.git
-cd AgriFutura-AI-Diagnosis
-2. Set up Git LFS:
-This project uses Git Large File Storage (LFS) to manage the ONNX model file. You must have Git LFS installed to pull the model correctly.
+AgriFutura AI Diagnosis is a deep learning-powered web application designed to help farmers and agricultural professionals quickly and accurately identify plant diseases from leaf images. By leveraging a state-of-the-art ensemble model, this tool provides an instant diagnosis and actionable advice to mitigate crop damage and improve agricultural outcomes.
 
-Bash
-# Install Git LFS (if you haven't already)
-git lfs install
+<br>
 
-# Pull the large files from LFS storage
-git lfs pull
-3. Create a Virtual Environment (Recommended):
-It's best practice to create a virtual environment to manage project dependencies.
+<div align="center">
+  <img src="https://i.imgur.com/uO9k3Xg.png" alt="Application Screenshot" width="700px">
+  <br>
+  <em>(Note: Replace this with an updated screenshot of your application)</em>
+</div>
 
-Bash
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
+---
 
-# For Windows
-python -m venv venv
-.\venv\Scripts\activate
-4. Install Dependencies:
-Install all the required Python libraries from the requirements.txt file.
+## ✨ Key Features
 
-Bash
-pip install -r requirements.txt
-5. Run the Streamlit Application:
-You're all set! Launch the application using the following command:
+- **High-Accuracy Diagnosis:** Employs an ensemble Convolutional Neural Network (CNN) for robust and precise disease classification.
+- **Intuitive & Accessible UI:** A clean, user-friendly interface built with Streamlit, requiring no technical expertise to operate.
+- **Real-Time Predictions:** Delivers immediate diagnostic results and confidence scores upon image upload.
+- **Actionable Insights:** Provides practical advice and treatment recommendations for identified diseases.
+- **Efficient & Portable:** Uses the ONNX runtime for high-performance, cross-platform model inference.
 
-Bash
-streamlit run app.py
-Your web browser should automatically open to the application's URL (usually http://localhost:8501).
+## 🛠️ Technology Stack
 
-🚀 How to Use
-Launch the App: Run the streamlit run app.py command.
-Upload an Image: Click the "Browse files" button and select a .jpg, .jpeg, or .png image of a plant leaf.
-Get a Diagnosis: The application will process the image and display the predicted disease, a confidence score, and recommended actions.
-📊 Dataset
-The model was trained on the PlantVillage Dataset, which contains thousands of images of healthy and diseased plant leaves across numerous species. This diverse dataset enables the model to generalize well to new images.
+| Category          | Technologies Used                               |
+| ----------------- | ----------------------------------------------- |
+| **Backend** | Python                                          |
+| **Deep Learning** | TensorFlow, Keras                               |
+| **Web Framework** | Streamlit                                       |
+| **Model Serving** | ONNX Runtime                                    |
+| **Data Handling** | NumPy, Pillow (PIL), Pandas                     |
 
-You can find the dataset on Kaggle: PlantVillage Dataset
+## ⚙️ Setup and Installation
 
-🔮 Future Improvements
-[ ] Deploy the application to a cloud service like Streamlit Community Cloud or Hugging Face Spaces for public access.
-[ ] Develop a mobile application version using TensorFlow Lite for on-field diagnosis.
-[ ] Expand the dataset to include more plant species and diseases.
-[ ] Create a REST API endpoint to serve model predictions to other applications.
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Follow these instructions to get the project running on your local machine for development and testing.
 
-👨‍💻 Contact
+### Prerequisites
+
+- Git & [Git LFS](https://git-lfs.github.com/)
+- Python 3.10 or newer
+
+### Step-by-Step Installation Guide
+
+1.  **Clone the Repository:**
+    ```sh
+    git clone [https://github.com/Aditya7615/AgriFutura-AI-Diagnosis.git](https://github.com/Aditya7615/AgriFutura-AI-Diagnosis.git)
+    cd AgriFutura-AI-Diagnosis
+    ```
+
+2.  **Install Git LFS and Pull Model:**
+    This project uses Git Large File Storage (LFS) to handle the large model file. This step is crucial.
+    ```sh
+    git lfs install
+    git lfs pull
+    ```
+
+3.  **Create and Activate a Virtual Environment:**
+    ```sh
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # For Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+4.  **Install Dependencies:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+5.  **Run the Application:**
+    ```sh
+    streamlit run app.py
+    ```
+    Navigate to `http://localhost:8501` in your web browser to view the application.
+
+## 🚀 Usage
+
+1.  Launch the application locally.
+2.  Click on **"Browse files"** to open the file uploader.
+3.  Select a clear JPG, JPEG, or PNG image of a single plant leaf.
+4.  The application will automatically analyze the image and display the diagnosis, confidence level, and treatment advice.
+
+## 🔮 Project Roadmap
+
+- [ ] Deploy the application to Streamlit Community Cloud for public access.
+- [ ] Develop a REST API endpoint for programmatic access to the model.
+- [ ] Expand the dataset to include a wider variety of plants and diseases.
+- [ ] Integrate a reporting feature for users to track diagnoses over time.
+
+## 🙏 Acknowledgments
+
+- The deep learning model was trained using the **PlantVillage Dataset**.
+- The user interface was built with the amazing **Streamlit** library.
+
+## 📜 License
+
+This project is distributed under the MIT License. See the `LICENSE` file for more information.
+
+---
+
+## 👨‍💻 Connect with the Author
+
+Feel free to reach out with questions, feedback, or collaboration proposals!
+
+**Aditya Goyal**
+- **GitHub:** [@Aditya7615](https://github.com/Aditya7615)
+- **LinkedIn:** [linkedin.com/in/adityagoyal7615](https://www.linkedin.com/in/adityagoyal7615/)
 Aditya Goyal - GitHub - LinkedIn ---
