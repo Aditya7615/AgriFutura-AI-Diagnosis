@@ -19,9 +19,7 @@ AgriFutura AI Diagnosis is a deep learning-powered web application designed to h
 <br>
 
 <div align="center">
-  <img src="https://i.imgur.com/uO9k3Xg.png" alt="Application Screenshot" width="700px">
-  <br>
-  <em>(Note: Replace this with an updated screenshot of your application)</em>
+  <img src="app-screenshot.png" alt="Application Screenshot" width="700px">
 </div>
 
 ---
@@ -99,7 +97,7 @@ Follow these instructions to get the project running on your local machine for d
 
 ## 🔮 Project Roadmap
 
-- [ ] Deploy the application to Streamlit Community Cloud for public access.
+- [X] Deploy the application to Streamlit Community Cloud for public access.
 - [ ] Develop a REST API endpoint for programmatic access to the model.
 - [ ] Expand the dataset to include a wider variety of plants and diseases.
 - [ ] Integrate a reporting feature for users to track diagnoses over time.
